@@ -1,0 +1,825 @@
+{
+    "orders": [
+      {
+        "order_id": "ORD-2025-4872",
+        "customer": {
+          "customer_id": "CUST-1039",
+          "name": "Alice Johnson",
+          "email": "alice.johnson@example.com",
+          "phone": "+1-555-123-4567",
+          "billing_address": {
+            "street": "123 Maple Avenue",
+            "city": "Springfield",
+            "state": "IL",
+            "zip": "62704",
+            "country": "United States"
+          }
+        },
+        "order_date": "2025-04-18T14:32:15Z",
+        "payment": {
+          "method": "credit_card",
+          "card_type": "Visa",
+          "last_four": "4321",
+          "status": "completed",
+          "amount": 89.97,
+          "currency": "USD",
+          "transaction_id": "TRX-8392756"
+        },
+        "shipping": {
+          "method": "standard",
+          "carrier": "FedEx",
+          "tracking_number": "FDX739284650192",
+          "tracking_url": "https://fedex.com/track/FDX739284650192",
+          "address": {
+            "street": "123 Maple Avenue",
+            "city": "Springfield",
+            "state": "IL",
+            "zip": "62704",
+            "country": "United States"
+          },
+          "estimated_delivery": "2025-04-24",
+          "status": "in_transit"
+        },
+        "items": [
+          {
+            "item_id": "PROD-7821",
+            "name": "Wireless Headphones",
+            "price": 29.99,
+            "quantity": 2,
+            "subtotal": 59.98,
+            "sku": "WH-BLK-001",
+            "options": {
+              "color": "black"
+            }
+          },
+          {
+            "item_id": "PROD-5392",
+            "name": "Charging Cable",
+            "price": 14.99,
+            "quantity": 2,
+            "subtotal": 29.98,
+            "sku": "CC-USB-002",
+            "options": {
+              "length": "6ft"
+            }
+          }
+        ],
+        "status": "shipped",
+        "subtotal": 89.96,
+        "tax": 5.4,
+        "shipping_cost": 4.99,
+        "discount": {
+          "code": "WELCOME10",
+          "amount": 10.38
+        },
+        "total": 89.97,
+        "notes": "Leave package at front door",
+        "gift_message": "",
+        "timeline": [
+          {
+            "status": "order_placed",
+            "timestamp": "2025-04-18T14:32:15Z"
+          },
+          {
+            "status": "payment_confirmed",
+            "timestamp": "2025-04-18T14:32:30Z"
+          },
+          {
+            "status": "processing",
+            "timestamp": "2025-04-19T08:15:47Z"
+          },
+          {
+            "status": "shipped",
+            "timestamp": "2025-04-20T13:42:19Z"
+          }
+        ]
+      },
+      {
+        "order_id": "ORD-2025-4956",
+        "customer": {
+          "customer_id": "CUST-2187",
+          "name": "Robert Chen",
+          "email": "robert.chen@example.com",
+          "phone": "+1-555-987-6543",
+          "billing_address": {
+            "street": "456 Oak Street, Apt 3B",
+            "city": "Boston",
+            "state": "MA",
+            "zip": "02116",
+            "country": "United States"
+          }
+        },
+        "order_date": "2025-04-21T09:15:37Z",
+        "payment": {
+          "method": "paypal",
+          "status": "completed",
+          "amount": 143.45,
+          "currency": "USD",
+          "transaction_id": "PYPL-583921564"
+        },
+        "shipping": {
+          "method": "express",
+          "carrier": "UPS",
+          "tracking_number": "1Z9827W5Y732563241",
+          "tracking_url": "https://ups.com/track/1Z9827W5Y732563241",
+          "address": {
+            "street": "456 Oak Street, Apt 3B",
+            "city": "Boston",
+            "state": "MA",
+            "zip": "02116",
+            "country": "United States"
+          },
+          "estimated_delivery": "2025-04-23",
+          "status": "delivered"
+        },
+        "items": [
+          {
+            "item_id": "PROD-2935",
+            "name": "Smart Watch",
+            "price": 129.99,
+            "quantity": 1,
+            "subtotal": 129.99,
+            "sku": "SW-SLV-42M",
+            "options": {
+              "color": "silver",
+              "size": "42mm"
+            }
+          },
+          {
+            "item_id": "PROD-1021",
+            "name": "Watch Strap",
+            "price": 19.99,
+            "quantity": 1,
+            "subtotal": 19.99,
+            "sku": "WS-BLU-42M",
+            "options": {
+              "color": "navy blue",
+              "size": "42mm"
+            }
+          }
+        ],
+        "status": "delivered",
+        "subtotal": 149.98,
+        "tax": 7.5,
+        "shipping_cost": 12.99,
+        "discount": {
+          "code": "LOYALTY15",
+          "amount": 27.02
+        },
+        "total": 143.45,
+        "notes": "",
+        "gift_message": "Happy Birthday Mike! Enjoy your new watch. - Robert",
+        "timeline": [
+          {
+            "status": "order_placed",
+            "timestamp": "2025-04-21T09:15:37Z"
+          },
+          {
+            "status": "payment_confirmed",
+            "timestamp": "2025-04-21T09:15:45Z"
+          },
+          {
+            "status": "processing",
+            "timestamp": "2025-04-21T10:03:12Z"
+          },
+          {
+            "status": "shipped",
+            "timestamp": "2025-04-21T14:27:36Z"
+          },
+          {
+            "status": "delivered",
+            "timestamp": "2025-04-22T16:42:19Z"
+          }
+        ]
+      },
+      {
+        "order_id": "ORD-2025-5013",
+        "customer": {
+          "customer_id": "CUST-7456",
+          "name": "Maria Gonzalez",
+          "email": "maria.g@example.com",
+          "phone": "+1-555-234-5678",
+          "billing_address": {
+            "street": "789 Pine Road",
+            "city": "Austin",
+            "state": "TX",
+            "zip": "78701",
+            "country": "United States"
+          }
+        },
+        "order_date": "2025-04-22T16:48:22Z",
+        "payment": {
+          "method": "credit_card",
+          "card_type": "Mastercard",
+          "last_four": "8765",
+          "status": "completed",
+          "amount": 67.24,
+          "currency": "USD",
+          "transaction_id": "TRX-4583921"
+        },
+        "shipping": {
+          "method": "standard",
+          "carrier": "USPS",
+          "tracking_number": "9400111202555842391957",
+          "tracking_url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9400111202555842391957",
+          "address": {
+            "street": "789 Pine Road",
+            "city": "Austin",
+            "state": "TX",
+            "zip": "78701",
+            "country": "United States"
+          },
+          "estimated_delivery": "2025-04-27",
+          "status": "processing"
+        },
+        "items": [
+          {
+            "item_id": "PROD-4371",
+            "name": "Yoga Mat",
+            "price": 34.99,
+            "quantity": 1,
+            "subtotal": 34.99,
+            "sku": "YM-PRP-STD",
+            "options": {
+              "color": "purple"
+            }
+          },
+          {
+            "item_id": "PROD-2844",
+            "name": "Resistance Bands Set",
+            "price": 24.99,
+            "quantity": 1,
+            "subtotal": 24.99,
+            "sku": "RB-5PC-MLT",
+            "options": {
+              "pieces": "5-piece set"
+            }
+          },
+          {
+            "item_id": "PROD-1198",
+            "name": "Water Bottle",
+            "price": 12.99,
+            "quantity": 1,
+            "subtotal": 12.99,
+            "sku": "WB-BLU-24OZ",
+            "options": {
+              "color": "blue",
+              "size": "24oz"
+            }
+          }
+        ],
+        "status": "processing",
+        "subtotal": 72.97,
+        "tax": 6.02,
+        "shipping_cost": 5.99,
+        "discount": {
+          "code": "FITFAM",
+          "amount": 17.74
+        },
+        "total": 67.24,
+        "notes": "Please deliver after 5pm",
+        "gift_message": "",
+        "timeline": [
+          {
+            "status": "order_placed",
+            "timestamp": "2025-04-22T16:48:22Z"
+          },
+          {
+            "status": "payment_confirmed",
+            "timestamp": "2025-04-22T16:48:37Z"
+          },
+          {
+            "status": "processing",
+            "timestamp": "2025-04-23T08:32:19Z"
+          }
+        ]
+      },
+      {
+        "order_id": "ORD-2025-5142",
+        "customer": {
+          "customer_id": "CUST-3912",
+          "name": "James Wilson",
+          "email": "j.wilson@example.com",
+          "phone": "+1-555-867-5309",
+          "billing_address": {
+            "street": "321 Cedar Lane",
+            "city": "Seattle",
+            "state": "WA",
+            "zip": "98101",
+            "country": "United States"
+          }
+        },
+        "order_date": "2025-04-19T11:28:45Z",
+        "payment": {
+          "method": "credit_card",
+          "card_type": "American Express",
+          "last_four": "1234",
+          "status": "completed",
+          "amount": 529.99,
+          "currency": "USD",
+          "transaction_id": "TRX-7685241"
+        },
+        "shipping": {
+          "method": "express",
+          "carrier": "DHL",
+          "tracking_number": "DHL439572816359",
+          "tracking_url": "https://www.dhl.com/en/express/tracking.html?AWB=DHL439572816359",
+          "address": {
+            "street": "321 Cedar Lane",
+            "city": "Seattle",
+            "state": "WA",
+            "zip": "98101",
+            "country": "United States"
+          },
+          "estimated_delivery": "2025-04-22",
+          "status": "out_for_delivery"
+        },
+        "items": [
+          {
+            "item_id": "PROD-8932",
+            "name": "4K Monitor",
+            "price": 499.99,
+            "quantity": 1,
+            "subtotal": 499.99,
+            "sku": "MON-4K-27IN",
+            "options": {
+              "size": "27 inch"
+            }
+          },
+          {
+            "item_id": "PROD-6742",
+            "name": "HDMI Cable",
+            "price": 14.99,
+            "quantity": 2,
+            "subtotal": 29.98,
+            "sku": "HDMI-2M-BLK",
+            "options": {
+              "length": "2m"
+            }
+          }
+        ],
+        "status": "out_for_delivery",
+        "subtotal": 529.97,
+        "tax": 52.99,
+        "shipping_cost": 15.99,
+        "discount": {
+          "code": "OFFICE25",
+          "amount": 68.96
+        },
+        "total": 529.99,
+        "notes": "Call before delivery",
+        "gift_message": "",
+        "timeline": [
+          {
+            "status": "order_placed",
+            "timestamp": "2025-04-19T11:28:45Z"
+          },
+          {
+            "status": "payment_confirmed",
+            "timestamp": "2025-04-19T11:28:59Z"
+          },
+          {
+            "status": "processing",
+            "timestamp": "2025-04-19T14:12:33Z"
+          },
+          {
+            "status": "shipped",
+            "timestamp": "2025-04-20T09:57:21Z"
+          },
+          {
+            "status": "out_for_delivery",
+            "timestamp": "2025-04-24T08:12:45Z"
+          }
+        ]
+      },
+      {
+        "order_id": "ORD-2025-5193",
+        "customer": {
+          "customer_id": "CUST-8475",
+          "name": "Sarah Kim",
+          "email": "skim@example.com",
+          "phone": "+1-555-444-3333",
+          "billing_address": {
+            "street": "72 Sunset Boulevard",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zip": "90046",
+            "country": "United States"
+          }
+        },
+        "order_date": "2025-04-15T18:22:09Z",
+        "payment": {
+          "method": "credit_card",
+          "card_type": "Discover",
+          "last_four": "9876",
+          "status": "completed",
+          "amount": 153.72,
+          "currency": "USD",
+          "transaction_id": "TRX-5479382"
+        },
+        "shipping": {
+          "method": "standard",
+          "carrier": "FedEx",
+          "tracking_number": "FDX294857163904",
+          "tracking_url": "https://fedex.com/track/FDX294857163904",
+          "address": {
+            "street": "72 Sunset Boulevard",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zip": "90046",
+            "country": "United States"
+          },
+          "estimated_delivery": "2025-04-21",
+          "status": "delivered"
+        },
+        "items": [
+          {
+            "item_id": "PROD-3267",
+            "name": "Designer Dress",
+            "price": 129.99,
+            "quantity": 1,
+            "subtotal": 129.99,
+            "sku": "DD-RED-SM",
+            "options": {
+              "color": "red",
+              "size": "S"
+            }
+          },
+          {
+            "item_id": "PROD-1573",
+            "name": "Earrings",
+            "price": 39.99,
+            "quantity": 1,
+            "subtotal": 39.99,
+            "sku": "ER-SLV-STD",
+            "options": {
+              "material": "silver"
+            }
+          }
+        ],
+        "status": "delivered",
+        "subtotal": 169.98,
+        "tax": 16.99,
+        "shipping_cost": 5.99,
+        "discount": {
+          "code": "STYLE20",
+          "amount": 39.24
+        },
+        "total": 153.72,
+        "notes": "",
+        "gift_message": "",
+        "timeline": [
+          {
+            "status": "order_placed",
+            "timestamp": "2025-04-15T18:22:09Z"
+          },
+          {
+            "status": "payment_confirmed",
+            "timestamp": "2025-04-15T18:22:17Z"
+          },
+          {
+            "status": "processing",
+            "timestamp": "2025-04-16T09:33:45Z"
+          },
+          {
+            "status": "shipped",
+            "timestamp": "2025-04-17T11:02:38Z"
+          },
+          {
+            "status": "delivered",
+            "timestamp": "2025-04-20T14:17:52Z"
+          }
+        ],
+        "returns": {
+          "status": "requested",
+          "request_date": "2025-04-21T10:45:21Z",
+          "items": [
+            {
+              "item_id": "PROD-3267",
+              "reason": "Wrong size",
+              "status": "awaiting_receipt"
+            }
+          ],
+          "return_label": {
+            "carrier": "FedEx",
+            "tracking_number": "FDX583921648304",
+            "url": "https://returns.example.com/label/r583921"
+          }
+        }
+      },
+      {
+        "order_id": "ORD-2025-5243",
+        "customer": {
+          "customer_id": "CUST-5392",
+          "name": "David Thompson",
+          "email": "david.t@example.com",
+          "phone": "+1-555-777-8888",
+          "billing_address": {
+            "street": "45 River View",
+            "city": "Chicago",
+            "state": "IL",
+            "zip": "60607",
+            "country": "United States"
+          }
+        },
+        "order_date": "2025-04-23T07:41:33Z",
+        "payment": {
+          "method": "apple_pay",
+          "status": "completed",
+          "amount": 1249.99,
+          "currency": "USD",
+          "transaction_id": "APAY-6749283"
+        },
+        "shipping": {
+          "method": "express",
+          "carrier": "UPS",
+          "tracking_number": "1Z4759283648192730",
+          "tracking_url": "https://ups.com/track/1Z4759283648192730",
+          "address": {
+            "street": "45 River View",
+            "city": "Chicago",
+            "state": "IL",
+            "zip": "60607",
+            "country": "United States"
+          },
+          "estimated_delivery": "2025-04-25",
+          "status": "processing"
+        },
+        "items": [
+          {
+            "item_id": "PROD-9834",
+            "name": "Laptop Pro",
+            "price": 1249.99,
+            "quantity": 1,
+            "subtotal": 1249.99,
+            "sku": "LP-SLV-16GB",
+            "options": {
+              "color": "silver",
+              "ram": "16GB",
+              "storage": "512GB"
+            }
+          }
+        ],
+        "status": "processing",
+        "subtotal": 1249.99,
+        "tax": 124.99,
+        "shipping_cost": 0,
+        "discount": {
+          "code": "FREESHIP",
+          "amount": 24.99
+        },
+        "total": 1349.99,
+        "notes": "Please deliver to doorman",
+        "gift_message": "",
+        "timeline": [
+          {
+            "status": "order_placed",
+            "timestamp": "2025-04-23T07:41:33Z"
+          },
+          {
+            "status": "payment_confirmed",
+            "timestamp": "2025-04-23T07:41:39Z"
+          },
+          {
+            "status": "processing",
+            "timestamp": "2025-04-23T09:15:27Z"
+          }
+        ],
+        "additional_services": {
+          "extended_warranty": {
+            "duration": "2 years",
+            "price": 149.99,
+            "coverage_details": "Covers all hardware failures and includes accidental damage protection"
+          }
+        }
+      },
+      {
+        "order_id": "ORD-2025-5298",
+        "customer": {
+          "customer_id": "CUST-6721",
+          "name": "Michael Brown",
+          "email": "mbrown@example.com",
+          "phone": "+1-555-333-2222",
+          "billing_address": {
+            "street": "890 Mountain Lane",
+            "city": "Denver",
+            "state": "CO",
+            "zip": "80202",
+            "country": "United States"
+          }
+        },
+        "order_date": "2025-04-17T20:03:58Z",
+        "payment": {
+          "method": "credit_card",
+          "card_type": "Visa",
+          "last_four": "5678",
+          "status": "completed",
+          "amount": 319.95,
+          "currency": "USD",
+          "transaction_id": "TRX-2947582"
+        },
+        "shipping": {
+          "method": "standard",
+          "carrier": "UPS",
+          "tracking_number": "1Z3847691275384652",
+          "tracking_url": "https://ups.com/track/1Z3847691275384652",
+          "address": {
+            "street": "890 Mountain Lane",
+            "city": "Denver",
+            "state": "CO",
+            "zip": "80202",
+            "country": "United States"
+          },
+          "estimated_delivery": "2025-04-23",
+          "status": "exception",
+          "exception_details": {
+            "code": "ADDR_ISSUE",
+            "message": "Address incomplete - missing apartment number",
+            "resolution": "Contact customer for complete address"
+          }
+        },
+        "items": [
+          {
+            "item_id": "PROD-5783",
+            "name": "Hiking Boots",
+            "price": 149.99,
+            "quantity": 1,
+            "subtotal": 149.99,
+            "sku": "HB-BRN-11",
+            "options": {
+              "color": "brown",
+              "size": "11"
+            }
+          },
+          {
+            "item_id": "PROD-3219",
+            "name": "Backpack",
+            "price": 89.99,
+            "quantity": 1,
+            "subtotal": 89.99,
+            "sku": "BP-GRN-40L",
+            "options": {
+              "color": "green",
+              "capacity": "40L"
+            }
+          },
+          {
+            "item_id": "PROD-2194",
+            "name": "Trekking Poles",
+            "price": 79.99,
+            "quantity": 1,
+            "subtotal": 79.99,
+            "sku": "TP-BLK-ADJ",
+            "options": {
+              "color": "black",
+              "type": "adjustable"
+            }
+          }
+        ],
+        "status": "exception",
+        "subtotal": 319.97,
+        "tax": 25.6,
+        "shipping_cost": 12.99,
+        "discount": {
+          "code": "OUTDOOR15",
+          "amount": 38.61
+        },
+        "total": 319.95,
+        "notes": "",
+        "gift_message": "",
+        "timeline": [
+          {
+            "status": "order_placed",
+            "timestamp": "2025-04-17T20:03:58Z"
+          },
+          {
+            "status": "payment_confirmed",
+            "timestamp": "2025-04-17T20:04:09Z"
+          },
+          {
+            "status": "processing",
+            "timestamp": "2025-04-18T08:37:12Z"
+          },
+          {
+            "status": "shipped",
+            "timestamp": "2025-04-19T14:29:51Z"
+          },
+          {
+            "status": "exception",
+            "timestamp": "2025-04-21T15:47:33Z"
+          }
+        ]
+      },
+      {
+        "order_id": "ORD-2025-5342",
+        "customer": {
+          "customer_id": "CUST-9203",
+          "name": "Emily Davis",
+          "email": "emily.davis@example.com",
+          "phone": "+1-555-222-9999",
+          "billing_address": {
+            "street": "567 Lake Drive",
+            "city": "Miami",
+            "state": "FL",
+            "zip": "33139",
+            "country": "United States"
+          }
+        },
+        "order_date": "2025-04-20T13:17:22Z",
+        "payment": {
+          "method": "google_pay",
+          "status": "completed",
+          "amount": 84.97,
+          "currency": "USD",
+          "transaction_id": "GPAY-8374629"
+        },
+        "shipping": {
+          "method": "standard",
+          "carrier": "USPS",
+          "tracking_number": "9400111899562738294728",
+          "tracking_url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9400111899562738294728",
+          "address": {
+            "street": "567 Lake Drive",
+            "city": "Miami",
+            "state": "FL",
+            "zip": "33139",
+            "country": "United States"
+          },
+          "estimated_delivery": "2025-04-26",
+          "status": "delayed",
+          "delay_reason": "Weather conditions affecting delivery route"
+        },
+        "items": [
+          {
+            "item_id": "PROD-7521",
+            "name": "Beach Towel",
+            "price": 24.99,
+            "quantity": 2,
+            "subtotal": 49.98,
+            "sku": "BT-BLU-LRG",
+            "options": {
+              "color": "blue",
+              "size": "large"
+            }
+          },
+          {
+            "item_id": "PROD-6394",
+            "name": "Sunscreen",
+            "price": 15.99,
+            "quantity": 1,
+            "subtotal": 15.99,
+            "sku": "SC-SPF50-8OZ",
+            "options": {
+              "spf": "50",
+              "size": "8oz"
+            }
+          },
+          {
+            "item_id": "PROD-4127",
+            "name": "Sun Hat",
+            "price": 19.99,
+            "quantity": 1,
+            "subtotal": 19.99,
+            "sku": "SH-TAN-M",
+            "options": {
+              "color": "tan",
+              "size": "M"
+            }
+          }
+        ],
+        "status": "delayed",
+        "subtotal": 85.96,
+        "tax": 6.45,
+        "shipping_cost": 5.99,
+        "discount": {
+          "code": "SUMMER10",
+          "amount": 13.43
+        },
+        "total": 84.97,
+        "notes": "",
+        "gift_message": "",
+        "timeline": [
+          {
+            "status": "order_placed",
+            "timestamp": "2025-04-20T13:17:22Z"
+          },
+          {
+            "status": "payment_confirmed",
+            "timestamp": "2025-04-20T13:17:29Z"
+          },
+          {
+            "status": "processing",
+            "timestamp": "2025-04-21T09:42:15Z"
+          },
+          {
+            "status": "shipped",
+            "timestamp": "2025-04-21T16:38:47Z"
+          },
+          {
+            "status": "delayed",
+            "timestamp": "2025-04-23T11:23:09Z"
+          }
+        ]
+      }
+    ]
+  }

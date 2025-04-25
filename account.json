@@ -1,0 +1,37 @@
+{
+    "accounts": [
+      {
+        "account_id": "CUST-1039",
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "payment": {
+          "method": "credit_card",
+          "card_type": "Visa",
+          "last_four": "4321",
+          "status": "completed",
+          "transaction_id": "TRX-8392756"
+        },
+        "coupon": {
+          "code": "WELCOME10",
+          "discount_amount": 10.38
+        },
+        "notes": "Payment was successfully processed."
+      },
+      {
+        "account_id": "CUST-2187",
+        "name": "Robert Chen",
+        "email": "robert.chen@example.com",
+        "payment": {
+          "method": "paypal",
+          "status": "completed",
+          "transaction_id": "PYPL-583921564"
+        },
+        "coupon": {
+          "code": "LOYALTY15",
+          "discount_amount": 27.02
+        },
+        "notes": "Payment was successfully processed."
+      }
+    ]
+  }
+  

@@ -1,0 +1,113 @@
+{
+    "products": [
+      {
+        "product_id": "P1001",
+        "name": "Ultra Comfort Running Shoes",
+        "category": "Footwear",
+        "price": 89.99,
+        "colors": ["Black", "Blue", "White"],
+        "sizes": ["7", "8", "9", "10", "11", "12"],
+        "inventory_status": "In Stock",
+        "avg_rating": 4.7,
+        "total_orders": 1253,
+        "return_rate": 0.03,
+        "common_questions": [
+          "Do these run true to size?",
+          "Are they good for trail running?",
+          "How long is the break-in period?"
+        ],
+        "specifications": {
+          "material": "Breathable mesh with rubber sole",
+          "weight": "8.5 oz per shoe",
+          "features": ["Shock absorption", "Arch support", "Moisture-wicking"]
+        }
+      },
+      {
+        "product_id": "P2045",
+        "name": "Wireless Noise-Cancelling Headphones",
+        "category": "Electronics",
+        "price": 149.95,
+        "colors": ["Black", "Silver", "Rose Gold"],
+        "inventory_status": "Limited Stock",
+        "avg_rating": 4.5,
+        "total_orders": 876,
+        "return_rate": 0.04,
+        "common_questions": [
+          "What's the battery life?",
+          "Are they compatible with iPhone?",
+          "Can I use them while charging?"
+        ],
+        "specifications": {
+          "battery_life": "24 hours",
+          "connectivity": "Bluetooth 5.0",
+          "features": ["Active noise cancellation", "Built-in microphone", "Touch controls"]
+        }
+      },
+      {
+        "product_id": "P3099",
+        "name": "Organic Cotton Throw Blanket",
+        "category": "Home Goods",
+        "price": 45.50,
+        "colors": ["Cream", "Gray", "Sage Green", "Terracotta"],
+        "dimensions": "50\" x 60\"",
+        "inventory_status": "In Stock",
+        "avg_rating": 4.9,
+        "total_orders": 542,
+        "return_rate": 0.01,
+        "common_questions": [
+          "Is it machine washable?",
+          "Does it shed or pill?",
+          "How thick is the material?"
+        ],
+        "specifications": {
+          "material": "100% organic cotton",
+          "weight": "2.4 lbs",
+          "care": "Machine wash cold, tumble dry low"
+        }
+      },
+      {
+        "product_id": "P4023",
+        "name": "Smart Fitness Watch",
+        "category": "Electronics",
+        "price": 199.99,
+        "colors": ["Black", "Blue", "Pink"],
+        "inventory_status": "In Stock",
+        "avg_rating": 4.3,
+        "total_orders": 1087,
+        "return_rate": 0.06,
+        "common_questions": [
+          "Is it waterproof?",
+          "Does it track sleep patterns?",
+          "How accurate is the heart rate monitor?"
+        ],
+        "specifications": {
+          "battery_life": "7 days",
+          "water_resistance": "50 meters",
+          "sensors": ["Heart rate", "GPS", "Accelerometer", "Pulse oximeter"],
+          "compatibility": "iOS 12+ and Android 8.0+"
+        }
+      },
+      {
+        "product_id": "P5078",
+        "name": "Stainless Steel Water Bottle",
+        "category": "Accessories",
+        "price": 24.95,
+        "colors": ["Matte Black", "Navy", "Mint", "Red"],
+        "capacity": "24 oz",
+        "inventory_status": "In Stock",
+        "avg_rating": 4.8,
+        "total_orders": 2134,
+        "return_rate": 0.01,
+        "common_questions": [
+          "Is it dishwasher safe?",
+          "Does it keep drinks cold/hot?",
+          "Does it fit in standard cup holders?"
+        ],
+        "specifications": {
+          "material": "18/8 food-grade stainless steel",
+          "insulation": "Double-walled vacuum insulation",
+          "features": ["Leakproof lid", "Keeps cold 24hrs", "Keeps hot 12hrs"]
+        }
+      }
+    ]
+  }
