@@ -22,6 +22,28 @@
           "features": ["Shock absorption", "Arch support", "Moisture-wicking"]
         }
       },
+        {
+        "product_id": "P10001",
+        "name": "Ultra Comfort Running Shoes For Men",
+        "category": "Footwear",
+        "price": 99.99,
+        "colors": ["Black", "Blue", "White", "Red", "Custom"],
+        "sizes": ["8", "9", "10", "11"],
+        "inventory_status": "In Stock",
+        "avg_rating": 4.8,
+        "total_orders": 1251,
+        "return_rate": 0.33,
+        "common_questions": [
+          "Do these run true to size?",
+          "Are they good for trail running?",
+          "How long is the break-in period?"
+        ],
+        "specifications": {
+          "material": "Breathable mesh with rubber sole",
+          "weight": "8.5 oz per shoe",
+          "features": ["Shock absorption", "Arch support", "Moisture-wicking"]
+        }
+      },
       {
         "product_id": "P2045",
         "name": "Wireless Noise-Cancelling Headphones",
